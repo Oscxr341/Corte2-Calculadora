@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page title</title>
+
+    <!-- Importar fuentes desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" /><link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- <header>: Encabezado principal de la página -->
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <!-- <nav>: Contiene los enlaces de navegación principales -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <!-- Formulario de búsqueda -->
+        <form>
+            <input type="search" name="q" placeholder="Search query" />
+            <input type="submit" value="Go!" />
+        </form>
+    </nav>
+
+    <!-- <main>: Contenido principal de la página -->
+    <main>
+        <!-- <article>: Contenido independiente como noticias o entradas de blog -->
+        <article>
+            <h2>Article heading</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+            <!-- <section>: División dentro del artículo -->
+            <section>
+                <h3>Subsection</h3>
+                <p>Contenido de la primera subsección...</p>
+                <p>Más contenido de la primera subsección...</p>
+            </section>
+
+            <section>
+                <h3>Another subsection</h3>
+                <p>Contenido de la segunda subsección...</p>
+                <p>Más contenido de la segunda subsección...</p>
+
+                <!-- <span>: Para contenido en línea. Aquí se usa para una nota editorial -->
+                <p>
+                    The King walked drunkenly back to his room at 01:00...
+                    <span class="editor-note">[Editor's note: At this point in the play, the lights should be down low].</span>
+                </p>
+
+                <!-- <br>: Salto de línea; <hr>: Línea horizontal de separación -->
+                <br>
+                <hr>
+
+                <!-- <div>: Contenedor, aquí se usa para el carrito de compras -->
+                <div class="shopping-cart">
+                    <h2>Shopping cart</h2>
+                    <ul>
+                        <li>
+                            <p><a href=""><strong>Silver earrings</strong></a>: $99.95.</p>
+                            <img src="../products/3333-0985/thumb.png" alt="Silver earrings" />
+                        </li>
+                        <li>…</li>
+                    </ul>
+                    <p>Total cost: $237.89</p>
+                </div>
+
+                <br>
+                <hr>
+                <hr />
+            </section>
+        </article>
+
+        <!-- <aside>: Contenido relacionado o complementario al principal -->
+        <aside>
+            <h2>Related</h2>
+            <ul>
+                <li><a href="#">Oh I do like to be beside the seaside</a></li>
+                <li><a href="#">Oh I do like to be beside the sea</a></li>
+                <li><a href="#">Although in the North of England</a></li>
+                <li><a href="#">It never stops raining</a></li>
+                <li><a href="#">Oh well…</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- <footer>: Pie de página -->
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+</body>
+</html>
